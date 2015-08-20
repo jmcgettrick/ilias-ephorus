@@ -1,2 +1,2 @@
 # ilias-ephorus
-ephorus plugin for Ilias
+Ephorus plugin for Ilias - see manuals for instructions on how to use and install.

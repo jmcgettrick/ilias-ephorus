@@ -1,0 +1,42 @@
+.xephModeSelection {
+	text-align: right;
+	margin-bottom: 6px;
+}
+
+.xephModeSelection a:link, .xephModeSelection a:visited, .summary_removed {
+	color: #09f;
+}
+
+table.fullwidth a:link, table.fullwidth a:visited, .xephReport a:link, .xephReport a:visited, .summary_found {
+	color: #f90;
+}
+
+.summary_added, .summary_original {
+	color: #222;
+}
+
+td.ilCLI {
+	padding: 2px 6px !important;
+}
+
+h4.il_ContainerItemTitle {
+	font-weight: bold !important;
+}
+
+.xephReport {
+	margin: 6px;
+}
+
+.result_original, .result_found {
+	width: 50%;
+	word-wrap: break-word;
+}
+.result_original > div {
+	color: #f90;
+	margin-right: 3px;
+}
+
+.result_found > div {
+	color: #222;
+	margin-left: 3px;
+}

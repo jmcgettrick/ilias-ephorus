@@ -1,0 +1,250 @@
+// 
+// English Language File for EphorusObject Plugin
+//
+
+<!-- language file start -->
+obj_xeph#:#Ephorus Exercise
+objs_xeph#:#Ephorus Exercises
+obj_xeph_duplicate#:#Copy Exercise
+objs_xeph_duplicate#:#Copy Exercises
+obj_xeph_select#:#-- Please select one Exercise --
+
+<!-- Creation of Exercise -->
+xeph_add#:#Add Exercise
+xeph_added#:#Exercise added
+xeph_new#:#New Exercise
+xeph_copy#:#Copy Exercise
+xeph_create#:#Create exercise
+xeph_edit#:#New exercise created
+
+<!-- Main permissions -->
+crs_create_xeph#:#Create Ephorus Exercise
+grp_create_xeph#:#Create Ephorus Exercise
+fold_create_xeph#:#Create Ephorus Exercise
+root_create_xeph#:#Create Ephorus Exercise
+cat_create_xeph#:#Create Ephorus Exercise
+
+<!-- Repository Index -->
+next_deadline#:#Next Deadline
+
+<!-- Assignment page -->
+assignments#:#Assignments
+assignment#:#Assignment
+
+<!-- view -->
+ended_on#:#Ended on
+starting_on#:#Starting On
+time_to_send#:#Remaining Working Time
+edit_until#:#Edit Until
+schedule#:#Schedule
+start_time#:#Start Time
+download#:#Download
+your_submission#:#Your Submission
+message_no_delivered_files#:#You have not submitted any files.
+hand_in#:#Hand In
+edit_submission#:#Edit Submission
+files_returned#:#Submitted Files
+last_submission#:#Last Submission
+feedback_from_tutor#:#Feedback from Tutor
+comment#:#Comment
+mark#:#Mark
+status#:#Status
+time_over_short#:#Time is up.
+submitted_files_deleted#:#The selected files have been deleted.
+already_delivered_files#:#Submitted Files
+public_submission#:#Public Submissions
+list_submission#:#List All Submissions
+msg_public_submission#:#All submissions will be published after the deadline.
+time_up#:#The time allocated for completing this exercise is over. Files cannot be submitted anymore!
+
+<!-- Edit -->
+add_assignment#:#Add Assignment
+new_assignment#:#New Assignment
+edit_assignment#:#Edit Assignment
+order_by_deadline#:#Order by Deadline
+save_order#:#Save Order
+presentation_order#:#Presentation Order
+deadline#:#Deadline
+mandatory#:#Mandatory
+mandatory_info#:#Mandatory assignments must be passed to pass the whole exercise.
+instruction#:#Work Instructions
+files#:#Files
+conf_del_assignments#:#Do you really want to delete the following assignments?
+assignments_deleted#:#The assignments have been deleted.
+saved_order#:#Saved presentation order.
+start_date_should_be_before_end_date#:#Start time should be before deadline.
+
+<!-- Info page -->
+info_short#:#Info
+overview#:#Overview
+msg_all_mandatory_ass#:#You must pass all mandatory assignments to pass the exercise.
+msg_failed_mandatory#:#You failed in at least one mandatory assignment.
+
+<!-- Settings page -->
+settings#:#Settings
+edit_ephorus_exercise#:#Edit Ephorus Exercise
+title#:#Title
+description#:#Description
+show_submissions#:#Publish Submissions after Deadline
+show_submissions_info#:#Publish all submissions to all learners after the deadline.
+pass_mode#:#Pass Mode
+pass_all#:#All Mandatory Assignments
+pass_all_info#:#All mandatory assignments must be passed to pass the exercise.
+pass_minimum_nr#:#Minimum Number of Assignments
+pass_minimum_nr_info#:#A minimum number of assignments must be passed to pass the exercise. This value must be equal or higher than the number of mandatory assignments.
+min_nr#:#Number of Assignments
+submission_notification#:#Email Notification on Submissions
+submission_notification_info#:#You will be notified when submissions are uploaded.
+completion_by_submission#:#Completed by Submission
+completion_by_submission_info#:#If enabled, the submission of at least one file causes the completion of an assignment. The score could be manually changed later. Switching this setting does not effect already submitted solutions.
+processtype#:#Processtype
+processtype_description#:#There are three upload options when sending documents to Ephorus:<ul><li>Default: The documents you send in will be checked for plagiarism and will be used as reference material in the future.</li><li>Reference: The document won't be checked for plagiarism but will be used as reference material.</li><li>Private: Your document will be checked for plagiarism but won't be used as reference material.</li></ul>
+save#:#Save
+cancel#:#Cancel
+edit#:#Edit
+<!-- Connection check -->
+check_connection#:#Check Connection
+handin_index_okay#:#The Hand-in and Index Addresses have got Connection
+handin_index_not_okay#:#The Hand-in and Index Addresses haven't got Connection
+handin_okay#:#The Hand-in Address has got Connection
+handin_not_okay#:#The Hand-in Address hasn't got Connection
+index_okay#:#The Index Address has got Connection
+index_not_okay#:#The Index Address hasn't got Connection
+
+<!-- Submission page -->
+submissions_and_grades#:#Submissions and Grades
+submission_view#:#Assignment View
+participant_view#:#Participant View
+grades_view#:#Grades View
+grades_overview#:#Grades Overview
+select_ass#:#Select Assignment
+search_users#:#Search Users
+save_changes#:#Save
+send_mail#:#Send Mail
+send_assignment#:#Send Assignment by Mail
+deassign_members#:#Remove Participant(s)
+download_files#:#Download Files
+download_all#:#Download All
+download_new#:#Download New
+comment_for_learner#:#Comment for Learner
+notgraded#:#Not Graded
+passed#:#Passed
+failed#:#Failed
+add_feedback_file#:#Add Feedback File
+fb_files#:#Feedback Files
+status_saved#:#Exercise updated
+submission#:#Submission
+report#:#Report
+grading#:#Grading
+participant#:#Participant
+add_participant#:#Add Participant
+crs_add_members#:#Add students from this course
+select_part#:#Select Participant
+no_participants#:#No Participants
+no_assignments_available#:#No Assignments Available
+msg_saved_grades#:#Grades have been saved.
+total_exc#:#Total Exercise
+export_excel#:#Export (Excel)
+
+exercise_sent#:#Exercise Sent
+feedback_sent#:#Feedback Sent
+sent_at#:#Sent at <br />%s
+
+members_assigned#:#Members assigned
+members_already_assigned#:#These user are already assigned to this exercise
+msg_sure_to_deassign_participant#:#Are you sure that you want to remove the participants from all assignments of the exercise? This will also delete all their handed in resources!
+msg_participants_removed#:#The participants have been removed from the exercise.
+
+reports#:#Ephorus Reports
+
+<!-- Permissions Page -->
+xeph_visible#:#Exercise is visible
+xeph_read#:#Access exercise
+xeph_write#:#Edit Exercise
+xeph_delete#:#Delete Exercise
+xeph_edit_permission#:#Change permission settings
+
+<!-- Configuration Page -->
+ephorus_plugin_configuration#:#Ephorus Exercise Plugin Configuration
+ephorus_logging#:#Enable Ephorus Logging
+ephorus_logging_description#:#Ephorus Logging enables extra logging.
+handin_code#:#Hand-in Code
+handin_address#:#Hand-in Adress
+index_address#:#Index Address
+default_processtype#:#Default Processtype
+default_processtype_description#:#There are two default upload options when sending documents to Ephorus:<ul><li>Default: The documents you send in will be checked for plagiarism and will be used as reference material in the future.</li><li>Private: Your document will be checked for plagiarism but won't be used as reference material.</li></ul>
+default#:#Default
+reference#:#Reference
+private#:#Private
+disclosure#:#Disclosure
+saving_invoked#:#Ephorus settings are saved.
+
+<!-- Ephorus Language strings -->
+wait_for_sending#:#Wait for sending
+wait_for_sending_msg#:#Waiting to send the Document to Ephorus.
+processing#:#Processing
+processing_msg#:#Ephorus is scanning the document for possible plagiarism and the report will arrive shortly.
+duplicate_document#:#Duplicate Document
+duplicate_document_msg#:#This Document has been handed in before.
+document_protected#:#Document Protected
+document_protected_msg#:#The document is protected by a password and could not be scanned.
+not_enough_text#:#Not Enough Text
+not_enough_text_msg#:#The document does not contain enough text for a reliable plagiarism scan.
+no_text#:#No Text
+no_text_msg#:#The document does not contain any text and could not be checked for plagiarism.
+unknown_error#:#Unknown Error
+unknown_error_msg#:#An unknown error occurred.
+
+unsupported_file_type#:#Unsupported file type
+file_too_big#:#File too big
+unknown_file_error#:#Unable to send file
+
+report_for assignment#:#Report for Assignment: %s
+report_for_document#:#Report for %s by %s<br />Submitted on %s
+
+document_info#:#Document Information
+student#:#Student
+document#:#Document
+submission_date#:#Submission Date
+total_score#:#Total Score
+
+original_document_by#:#The Original Document was handed in by %s (%s) on %s
+original_document_by_no_date#:#The Original Document was handed in by %s (%s)
+duplicate_document_download#:#Download the Document
+original_report#:#Original Report
+link_original_report#:#View original report
+
+document_written_by#:#Document written by %s (%s)
+update_selection#:#Update Selection
+view_difference#:#View Difference
+
+original_text#:#Original
+found_by_ephorus#:#Found
+
+msg_change_index#:#The visibility index of the document has been changed.
+msg_no_change_index#:#The visibility index hasn't been changed.
+
+<!-- No page defined yet -->
+ask_delete#:#Delete file?
+assign_usr#:#Assign User
+date_not_valid#:#The date is not valid
+details#:#Exercise details
+edit_learning_progress#:#Edit Learning Progress
+groups#:#Groups
+header_members#:#Exercise (members)
+mail_users#:#Send mail to user(s)
+members_comments_saved#:#The exercise comments for the selected user have been saved
+no_members_assigned#:#No members assigned
+notices#:#Notices
+resubmitted_advice#:#This symbol will be displayed in case that a new file has been submitted after the "solved" field has been checked
+roles#:#Roles
+search_for#:#Search for
+select_one_file#:#Please select exactly one file.
+send_exercise#:#Send exercise by mail
+sent#:#The exercise has been sent to the selected users
+status_resubmitted#:#Resubmitted
+status_sent#:#Delivered
+status_solved#:#Solved
+status_submitted#:#Submitted
+upload_error#:#Error uploading file
+users#:#Users

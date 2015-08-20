@@ -1,0 +1,251 @@
+// 
+// German Language File for EphorusObject Plugin
+//
+
+<!-- language file start -->
+obj_xeph#:#Ephorus Übung
+objs_xeph#:#Ephorus Übungen
+obj_xeph_duplicate#:#Übung kopieren
+objs_xeph_duplicate#:#Übungs kopieren
+obj_xeph_select#:#-- Bitte wählen Sie eine Übung aus --
+
+<!-- Creation of Exercise -->
+xeph_add#:#Übung anlegen
+xeph_added#:#Eine neue Übung wurde angelegt
+xeph_new#:#Neue Übung
+xeph_copy#:#Übung kopieren
+xeph_create#:#Neue Übung anlegen
+xeph_edit#:#Übung bearbeiten
+
+<!-- Main permissions -->
+crs_create_xeph#:#Neue Ephorus Übung anlegen
+grp_create_xeph#:#Neue Ephorus Übung anlegen
+fold_create_xeph#:#Neue Ephorus Übung anlegen
+root_create_xeph#:#Neue Ephorus Übung anlegen
+cat_create_xeph#:#Neue Ephorus Übung anlegen
+
+<!-- Repository Index -->
+next_deadline#:#Nächster Abgabetermin
+
+<!-- Assignment page -->
+assignments#:#Übungseinheiten
+assignment#:#Übungseinheit
+
+<!-- view -->
+ended_on#:#Beendet am
+starting_on#:#Startet am
+time_to_send#:#Verbleibende Bearbeitungsdauer
+edit_until#:#Zu bearbeiten bis
+schedule#:#Terminplan
+start_time#:#Startzeit
+download#:#Herunterladen
+your_submission#:#Ihre Einreichung
+message_no_delivered_files#:#Sie haben noch keine Lösungsergebnisse abgegeben!
+hand_in#:#Lösung einreichen
+edit_submission#:#Eingereichte Lösungen ändern
+files_returned#:#Abgegebene Dateien
+last_submission#:#Datum der letzten Abgabe
+feedback_from_tutor#:#Feedback des Tutors
+comment#:#Kommentar
+mark#:#Note
+status#:#Status
+time_over_short#:#Die Zeit ist abgelaufen
+submitted_files_deleted#:#Die ausgewählten Dateien wurden gelöscht.
+already_delivered_files#:#Bereits abgegebene Dateien
+public_submission#:#Öffentliche Lösungsabgaben
+list_submission#:#Alle Lösungsabgaben
+msg_public_submission#:#Alle Lösungsabgaben werden nach dem Abgabetermin veröffentlicht.
+time_up#:#Sie haben das Ende der Bearbeitungszeit dieser Übung erreicht. Sie können keine Lösung mehr abgeben!
+
+<!-- Edit -->
+add_assignment#:#Übungseinheit hinzufügen
+new_assignment#:#Neue Übungseinheit
+edit_assignment#:#Übungseinheit bearbeiten
+order_by_deadline#:#Nach Abgabetermin sortieren
+save_order#:#Reihenfolge speichern
+presentation_order#:#Reihenfolge
+deadline#:#Abgabetermin
+mandatory#:#Obligatorisch
+mandatory_info#:#Obligatorische Übungseinheiten müssen bestanden werden, um die ganze Übung zu bestehen.
+instruction#:#Arbeitsanweisung
+files#:#Dateien
+conf_del_assignments#:#Möchten Sie die folgenden Übungseinheiten wirklich löschen?
+assignments_deleted#:#Die Übungseinheiten wurden gelöscht.
+saved_order#:#Reihenfolge gespeichert
+start_date_should_be_before_end_date#:#Die Startzeit sollte vor dem Abgabetermin liegen.
+
+<!-- Info page -->
+info_short#:#Info
+overview#:#Übersicht
+msg_all_mandatory_ass#:#Sie müssen alle obligatorischen Übungseinheiten bestehen um die Übung zu bestehen.
+msg_failed_mandatory#:#Sie haben mindestens eine obgligatorische Übungseinheit nicht bestanden.
+
+<!-- Settings page -->
+settings#:#Einstellungen
+edit_ephorus_exercise#:#Ephorus Übung bearbeiten
+title#:#Titel
+description#:#Beschreibung
+show_submissions#:#Alle abgegebenen Lösungen nach Abgabetermin veröffentlichen
+show_submissions_info#:#Die abgegebenen Lösungen aller Lerner können nach dem Abgabetermin von allen Lernern eingesehen werden.
+pass_mode#:#Anforderung
+pass_all#:#Alle obligatorischen Übungseinheiten
+pass_all_info#:#Lerner müssen alle obligatorischen Übungseinheiten bestehen, um die Übung als ganze zu bestehen.
+pass_minimum_nr#:#Minimale Anzahl an Übungseinheiten
+pass_minimum_nr_info#:#Lerner müssen eine minimale Anzahl an Übungseinheiten bestehen, um die Übung als ganze zu bestehen. Dieser Wert muß mindestens so hoch sein, wie die Anzahl der obligatorischen Übungseinheiten.
+min_nr#:#Anzahl Übungseinheiten
+submission_notification#:#Mail-Benachrichtigung bei Abgaben
+submission_notification_info#:#Sie werden benachrichtigt, sobald neue Abgaben hochgeladen werden.
+completion_by_submission#:#Bestehen durch Abgabe
+completion_by_submission_info#:#Falls aktiviert, führt die Abgabe einer Lösungsdatei zur Vergabe der Maximalpunktzahl für diese Frage. Die Bewertung kann jederzeit manuell angepasst werden. Das Ändern dieser Einstellung hat keine nachträglichen Auswirkungen auf bereits eingereichte Lösungen.
+processtype#:#Bearbeitungstyp
+processtype_description#:#Beim Senden eines Dokuments an Ephorus sollte eine Auswahl aus drei Bearbeitungstypen getroffen werden.:<ul><li>Standardprüfung: Die Dokumente, die Sie einsenden, werden auf Plagiate geprüft und in Zukunft als Referenzmaterial verwendet.</li><li>Referenzmaterial: Das Dokument wird nicht auf Plagiate geprüft, sondern als Referenzmaterial verwendet.</li><li>Private prüfung: Das Dokument wird auf Plagiate geprüft, aber nicht als Referenzmaterial verwendet.</li></ul>
+save#:#Speichern
+cancel#:#Abbrechen
+edit#:#Bearbeiten
+
+<!-- Submission page -->
+submissions_and_grades#:#Abgaben und Noten
+submission_view#:#Je Übungseinheit
+participant_view#:#Je Teilnehmer
+grades_view#:#Notenübersicht
+grades_overview#:#Notenübersicht
+select_ass#:#Übungseinheit auswählen
+search_users#:#Benutzer suchen
+save_changes#:#Änderungen speichern
+send_mail#:#Nachricht versenden
+send_assignment#:#Übungseinheit per Mail verschicken
+deassign_members#:#Mitglied(er) löschen
+download_files#:#Download-Dateien
+download_all#:#Alle herunterladen
+download_new#:#Neue herunterladen
+comment_for_learner#:#Kommentar für Lerner
+notgraded#:#Nicht bewertet
+passed#:#Bestanden
+failed#:#Nicht bestanden
+add_feedback_file#:#Feedback-Datei
+fb_files#:#Feedback-Dateien
+status_saved#:#Die Änderungen wurden gespeichert
+submission#:#Einreichung
+report#:#Bericht
+grading#:#Bewertung
+participant#:#Teilnehmer
+add_participant#:#Teilnehmer hinzufügen
+crs_add_members#:#Mitglieder dieses Kurses hinzufügen
+select_part#:#Teilnehmer auswählen
+no_participants#:#Zur Zeit gibt es keine Teilnehmer.
+no_assignments_available#:##Keine Übungseinheiten vorhanden. Bitte wählen Sie "Übungseinheiten" und "Bearbeiten", um eine Übungseinheit zu erstellen.
+msg_saved_grades#:#Noten wurden gespeichert.
+total_exc#:#Gesamte Übung
+export_excel#:#Export (Excel)
+
+exercise_sent#:#Übung versandt
+feedback_sent#:#Feedback versandt
+sent_at#:#Versandt am <br />%s
+
+members_assigned#:#Die Benutzer wurden der Übung zugeordnet
+members_already_assigned#:#Die ausgewählten Benutzer sind bereits Mitglieder dieser Übung
+msg_sure_to_deassign_participant#:#Die ausgewählten Benutzer sind bereits Mitglieder dieser Übung
+msg_participants_removed#:#Die Teilnehmer wurden aus der Übung entfernt.
+
+reports#:#Ephorus Berichten
+
+<!-- Permissions Page -->
+xeph_visible#:#Übung ist sichtbar
+xeph_read#:#An Übung teilnehmen
+xeph_write#:#Übung bearbeiten
+xeph_delete#:#Übung löschen
+xeph_edit_permission#:#Rechteeinstellungen ändern
+
+<!-- Configuration Page -->
+ephorus_plugin_configuration#:#Ephorus Übung Plugin Konfiguration
+ephorus_logging#:#Ephorus logging einschalten
+ephorus_logging_description#:#Ephorus Logging gibt extra Informationen.
+handin_code#:#Einreichung Code
+handin_address#:#Einreichungs Adresse
+index_address#:#Index-Adresse
+default_processtype#:#Standard Bearbeitungstyp
+default_processtype_description#:#Beim Senden eines Dokuments an Ephorus sollte eine Auswahl aus zwei Standard Bearbeitungstypen getroffen werden.:<ul><li>Standardprüfung: Die Dokumente, die Sie einsenden, werden auf Plagiate geprüft und in Zukunft als Referenzmaterial verwendet.</li><li>Private prüfung: Das Dokument wird auf Plagiate geprüft, aber nicht als Referenzmaterial verwendet.</li></ul>
+default#:#Standardprüfung
+reference#:#Referenzmaterial
+private#:#Private Prüfung
+disclosure#:#Offenlegung
+saving_invoked#:#Ephorus Einstellungen wurden gespeichert
+
+<!-- Connection check -->
+check_connection#:#Verbindung Kontrollieren
+handin_index_okay#:#Die Einreichungs und Index-Adressen haben Verbindung
+handin_index_not_okay#:#Die Einreichungs und Index-Adressen haben kein Verbindung
+handin_okay#:#Die Einreichungs Adresse hat Verbindung
+handin_not_okay#:#Die Einreichungs Adresse hat keine Verbindung
+index_okay#:#Die Index-Adresse hat Verbindung
+index_not_okay#:#Die Index-Adresse hat keine Verbindung
+
+<!-- Ephorus Language strings -->
+wait_for_sending#:#Warten auf Versand
+wait_for_sending_msg#:#Warten auf Versand der Datei zu Ephorus
+processing#:#Wird bearbeitet
+processing_msg#:#Ephorus kontrolliert das Dokument auf Plagiat, der Bericht wird in kürze versendet.
+duplicate_document#:#Duplikat Dokument
+duplicate_document_msg#:#Dieses Dokument wurde bereits eingereicht.
+document_protected#:#Dokument geschützt
+document_protected_msg#:#Dieses Dokument ist mit einem Passwort versehen und konnte nicht kontrolliert werden.
+not_enough_text#:#Nicht genug Text
+not_enough_text_msg#:#Dieses Dokument beinhaltet zu wenig Text für einen seriösen Plagiatsscan.
+no_text#:#Kein Text
+no_text_msg#:#Dieses Dokument beinhaltet keinen Text und konnte nicht kontrolliert werden.
+unknown_error#:#Unbekannter Fehler
+unknown_error_msg#:#Ein unbekannter Fehler ist aufgetreten.
+
+unsupported_file_type#:#Dateityp wird nicht unterstützt
+file_too_big#:#Dokument zu groß
+unknown_file_error#:#Senden des Dokumentes nicht möglich.
+
+report_for assignment#:#Bericht für Übungseinheit: %s
+report_for_document#:#Bericht für %s von %s<br />Abgabe am %s
+
+document_info#:#Dokument Info
+student#:#Student
+document#:#Dokument
+submission_date#:#Datum der Abgabe
+total_score#:#Gesamte Score
+
+original_document_by#:#Das originale Dokument wurde eingereicht von %s (%s) am %s
+original_document_by_no_date#:#Das originale Dokument wurde eingereicht von %s (%s)
+duplicate_document_download#:#Download Dokument
+original_report#:#Original Bericht
+link_original_report#:#Original Bericht ansehen.
+
+document_written_by#:#Dokument geschrieben von %s (%s)
+update_selection#:#Update Auswahl
+view_difference#:#Unterschied ansehen
+
+original_text#:#Original
+found_by_ephorus#:#Gefunden
+
+msg_change_index#:#Die Sichtbarkeit hat sich geändert.
+msg_no_change_index#:#Die Sichtbarkeit hat sich nicht geändert.
+
+<!-- No page defined yet -->
+ask_delete#:#Datei löschen?
+assign_usr#:#Benutzer hinzufügen
+date_not_valid#:#Das Datum ist nicht gültig
+details#:#Übungsdetails
+edit_learning_progress#:#Lernfortschritt bearbeiten
+groups#:#Gruppen
+header_members#:#Übung (Mitglieder)
+mail_users#:#Mail an Nutzer verschicken
+members_comments_saved#:#Die Kommentare zu den Übungen der ausgewählten Benutzer wurden gespeichert.
+no_members_assigned#:#Dieser Übung sind keine Mitglieder zugeordnet
+notices#:#Bemerkungen
+resubmitted_advice#:#Dieses Zeichen erscheint, wenn eine neue Lösungsdatei abgegeben wird, nachdem für den Benutzer das Häkchen "Gelöst" gewählt wurde.
+roles#:#Rollen
+search_for#:#Suchen nach
+select_one_file#:#Bitte wählen Sie genau eine Datei aus.
+send_exercise#:#Übung verschicken
+sent#:#Die Übung wurde an die ausgewählten Mitglieder verschickt
+status_resubmitted#:#Erneut übertragen
+status_sent#:#Zugestellt
+status_solved#:#Gelöst
+status_submitted#:#Übertragen
+upload_error#:#Fehler beim Heraufladen der Datei
+users#:#Benutzern

@@ -1,0 +1,252 @@
+//
+// Spanish Language File for EphorusObject Plugin#:#
+//
+
+<!-- language file start -->
+obj_xeph#:#Entrega de trabajos Ephorus
+objs_xeph#:#Entregas de trabajos Ephorus
+obj_xeph_duplicate#:#Copiar entrega de trabajos
+objs_xeph_duplicate#:#Copiar entregas de trabajos
+obj_xeph_select#:#-- Por favor, seleccione una Entrega --
+
+<!-- Creation of Exercise -->
+xeph_add#:#Añadir entrega de ejercicios Ephorus
+xeph_added#:#Entrega de ejercicios creada
+xeph_new#:#Nueva entrega de ejercicios
+xeph_copy#:#Copiar entrega de ejercicio
+xeph_create#:#Crear entrega de ejercicios
+xeph_edit#:#Nuevo entrega de ejercicios creada
+
+<!-- Main permissions -->
+crs_create_xeph#:#Crear entrega de ejercicios Ephorus
+grp_create_xeph#:#Crear entrega de ejercicios Ephorus
+fold_create_xeph#:#Crear entrega de ejercicios Ephorus
+root_create_xeph#:#Crear entrega de ejercicios Ephorus
+cat_create_xeph#:#Crear entrega de ejercicios Ephorus
+
+<!-- Repository Index -->
+next_deadline#:#Próxima fecha tope
+
+<!-- Assignment page -->
+assignments#:#Tareas
+assignment#:#Tarea
+
+<!-- view -->
+ended_on#:#
+starting_on#:#
+time_to_send#:#Tiempo de trabajo restante
+edit_until#:#Fecha límite de entrega
+schedule#:#Fecha de entrega
+start_time#:#Fecha de inicio
+download#:#Descargar
+your_submission#:#Su envío
+message_no_delivered_files#:#No ha enviado ningún archivo
+hand_in#:#Enviar archivo
+edit_submission#:#Modificar envío
+files_returned#:#Archivos enviados
+last_submission#:#Último envío
+feedback_from_tutor#:#Comentarios del profesor
+comment#:#Comentario
+mark#:#Calificación
+status#:#Estado
+time_over_short#:#El tiempo de entrega finalizó
+submitted_files_deleted#:#Los archivos seleccionados han sido eliminados
+already_delivered_files#:#Archivos enviados
+public_submission#:#Envíos públicos
+list_submission#:#Listar todos los envíos
+msg_public_submission#:#Todos los envíos serán públicos para todos los miembros después de la fecha tope de entrega
+time_up#:#El tiempo asignado para completar esta entrega de ejercicios ha finalizado. ¡No es posible enviar más archivos!
+
+<!-- Edit -->
+add_assignment#:#Añadir tarea
+new_assignment#:#Nueva tarea
+edit_assignment#:#Editar tarea
+order_by_deadline#:#Ordenar por fecha de finalización
+save_order#:#Guardar orden
+presentation_order#:#Orden de visualización
+deadline#:#Fecha límite
+mandatory#:#Obligatoria
+mandatory_info#:#Todas las tareas obligatorias han de superarse para considerar aprobado el ejercicio
+instruction#:#Instrucciones de trabajo
+files#:#Archivos
+conf_del_assignments#:#¿Estáeguro de querer eliminar las siguientes tareas?
+assignments_deleted#:#Las tareas han sido eliminadas
+saved_order#:#Guardar orden de visualización
+start_date_should_be_before_end_date#:#La fecha de inicio debe comenzar antes de la fecha de finalización
+
+<!-- Info page -->
+info_short#:#Info
+overview#:#Resumen
+msg_all_mandatory_ass#:#Debes superar todas las tareas obligatorias para superar el trabajo
+msg_failed_mandatory#:#No has superado al menos una tarea obligatoria
+
+<!-- Settings page -->
+settings#:#Configuración
+edit_ephorus_exercise#:#Editar entrega de ejercicios Ephorus
+title#:#Título
+description#:#Descripción
+show_submissions#:#Publicar envíos tras la fecha de finalización de entregas
+show_submissions_info#:#Publicar todos los envíos a todos los usuarios tras la fecha de finalización de entregas
+pass_mode#:#Forma de superar el ejercicio
+pass_all#:#Todas las tareas obligatorias
+pass_all_info#:#Todas las tareas obligatorias han de superarse para aprobar el ejercicio
+pass_minimum_nr#:#Mánimo número de tareas
+pass_minimum_nr_info#:#Deben superarse un mínimo de tareas para aprobar el ejercicio. Este valor debe ser igual o superior al número de tareas obligatorias
+min_nr#:#Número de tareas
+submission_notification#:#Notificación de envío por correo
+submission_notification_info#:#Serás notificado cuando se realice cada entrega
+completion_by_submission#:#Completado mediante envío
+completion_by_submission_info#:#Si está activado, la presentación de al menos un archivo causa la finalización de una tarea. La puntuación puede cambiarse después. Los cambios en el ajuste no afectarán a los envíos ya realizados
+processtype#:#Tipo de análisis
+processtype_description#:#Existen tres opciones de subida al enviar ficheros a Ephorus:<ul><li><em>Por defecto</em>: Los documentos enviados serán analizados para detección de plagio e indexados como material de referencia en el futuro.</li><li><em>Referencia:</em> Los documentos no serán analizados para detección de plagio pero sí se indexarán como material de referencia en el futuro.</li><li><em>Privado:</em> Su documento será analizado para detección de plagio pero no será indexado como material de referencia en el futuro.</li></ul>
+save#:#Guardar
+cancel#:#Cancelar
+edit#:#Editar
+<!-- Connection check -->
+check_connection#:#Comprobar conexión
+handin_index_okay#:#Las direcciones de envío e indexado tienen conexión
+handin_index_not_okay#:#Las direcciones de envío e indexado no tienen conexión
+handin_okay#:#La dirección de envío tiene conexión
+handin_not_okay#:#La dirección de envío no tiene conexión
+index_okay#:#La dirección de indexado tiene conexión
+index_not_okay#:#La dirección de indexado no tiene conexión
+
+<!-- Submission page -->
+submissions_and_grades#:#Participantes y calificaciones
+submission_view#:#Vista de tareas
+participant_view#:#Vista de participantes
+grades_view#:#Vista de calificaciones
+grades_overview#:#Vista general de resultados
+select_ass#:#Selecciona tarea
+search_users#:#Buscar usuarios
+save_changes#:#Guardar
+send_mail#:#Enviar correo
+send_assignment#:#Enviar tarea por correo
+deassign_members#:#Eliminar participante(s)
+download_files#:#Descargar archivos
+download_all#:#Descargar todo
+download_new#:#Descargar nuevos
+comment_for_learner#:#Comentario para el alumno
+notgraded#:#No puntuado
+passed#:#Superado
+failed#:#No superado
+add_feedback_file#:#Añadir fichero con comentarios
+fb_files#:#Ficheros con comentarios
+status_saved#:#Entrega de ejercicio actualizada
+submission#:#Envío
+report#:#Informe
+grading#:#Calificación
+participant#:#Participante
+add_participant#:#Añadir participante
+crs_add_members#:#Añadir miembros de este curso
+select_part#:#Seleccionar un particpiante
+no_participants#:#No hay participantes
+no_assignments_available#:#No hay asignaciones disponibles
+msg_saved_grades#:#Las calificaciones han sido guardadas
+total_exc#:#Puntuación total
+export_excel#:#Exportar a Excel
+
+exercise_sent#:#Entrega enviada
+feedback_sent#:#Comentarios enviados
+sent_at#:#Enviar a <br/>%s
+
+members_assigned#:#Miembros asignados
+members_already_assigned#:#Estos usuarios ya están asignados a esta entrega
+msg_sure_to_deassign_participant#:#¿Está seguro que quiere eliminar a los participantes de todas las tareas de esta entrega? Esto también borrará todos los recursos que han enviado
+msg_participants_removed#:#Los participantes han sido eliminados de la entrega
+
+reports#:#Informes de Ephorus
+
+<!-- Permissions Page -->
+xeph_visible#:#Entrega de trabajos Ephorus visible
+xeph_read#:#Acceso a entrega de trabajos Ephorus
+xeph_write#:#Editar entrega de trabajos Ephorus
+xeph_delete#:#Eliminar entrega de trabajos Ephorus
+xeph_edit_permission#:#Cambiar permisos
+
+<!-- Configuration Page -->
+ephorus_plugin_configuration#:#Configuración del plugin de entrega de trabajos Ephorus
+ephorus_logging#:#Activar identificación con Ephorus
+ephorus_logging_description#:#La identificación con Ephorus activa identificación adicional
+handin_code#:#Código de envío
+handin_address#:#Dirección de envío
+index_address#:#Dirección de indexado
+default_processtype#:#Tipo de análisis por defecto
+default_processtype_description#:#Existen dos opciones de subida por defecto al enviar documentos a Ephorus:<ul><li><em>Por defecto</em>: Los documentos enviados serán analizados para detección de plagio e indexados como material de referencia en el futuro.</li><li><em>Privado:</em> El documento será analizado para detección de plagio pero no será usado como material de referencia en el futuro.</li></ul>
+default#:#Por defecto
+reference#:#Referencia
+private#:#Privado
+disclosure#:#Revelación
+saving_invoked#:#La configuración de Ephorus ha sido guardada
+
+<!-- Ephorus Language strings -->
+wait_for_sending#:#En espera para enviar
+wait_for_sending_msg#:#Esperando para enviar el documento a Ephorus
+processing#:#Procesando
+processing_msg#:#Ephorus está escaneando el documento en busca de posibles plagios y el resultado estará disponible en breve
+duplicate_document#:#Documento duplicado
+duplicate_document_msg#:#Este documento ha sido enviado anteriormente
+document_protected#:#Documento protegido
+document_protected_msg#:#El documento está protegido por contraseña y no pudo ser analizado
+not_enough_text#:#Texto insuficiente
+not_enough_text_msg#:#El documento no contiene suficiente cantidad de texto para un análisis de plagio de confianza
+no_text#:#Sin texto
+no_text_msg#:#El documento no contiene ningún texto y no pudo ser analizado en busca de plagio
+unknown_error#:#Error desconocido
+unknown_error_msg#:#Ocurrió un error desconocido
+
+unsupported_file_type#:#Tipo de archivo no soportado
+file_too_big#:#Archivo demasiado grande
+unknown_file_error#:#Imposible enviar archivo
+
+report_for assignment#:#Resultado de la tarea: %s
+report_for_document#:#Resultado para %s por %s<br/>Enviado el %s
+
+document_info#:#Información del documento
+student#:#Estudiante
+document#:#Documento
+submission_date#:#Fecha de envío
+total_score#:#Puntuación total
+
+original_document_by#:#El documento original fue enviado por %s (%s) el (%s)
+original_document_by_no_date#:#El documento original fue enviado por %s (%s)
+duplicate_document_download#:#Descargar el documento
+original_report#:#Informe original
+link_original_report#:#Ver informe original
+
+document_written_by#:#Documento escrito por %s (%s)
+update_selection#:#Actualizar selección
+view_difference#:#Ver diferencias
+
+wait_for_sending_msg#:#Esperando para enviar
+no_results_found#:#No se han encontrado coincidencias
+original_text#:#Original
+found_by_ephorus#:#Encontrado
+
+msg_change_index#:#El índice de visibilidad del documento ha sido modificado
+msg_no_change_index#:#El índice de visibilidad del documento no ha sido modificado
+
+<!-- No page defined yet -->
+ask_delete#:#¿Eliminar archivo?
+assign_usr#:#Asignar usuario
+date_not_valid#:#La fecha no es válida
+details#:#Detalles de la entrega
+edit_learning_progress#:#Editar progreso de aprendizaje
+groups#:#Grupos
+header_members#:#Ejercicio (miembros)
+mail_users#:#Enviar correo a los usuarios
+members_comments_saved#:#Los comentarios de la entrega para el usuario seleccionado han sido guardados
+no_members_assigned#:#Ningún miembro asignado
+notices#:#Avisos
+resubmitted_advice#:#"Este símbolo será mostrado en caso de que un nuevo archivo haya sido enviado después de que el campo ""solucionado"" haya sido comprobado."
+roles#:#Roles
+search_for#:#Buscar
+select_one_file#:#Por favor, seleccione un único archivo
+send_exercise#:#Enviar asignación por correo
+sent#:#La asignación ha sido enviada a los usuarios seleccionados
+status_resubmitted#:#Reenviado
+status_sent#:#Entregado
+status_solved#:#Solucionado
+status_submitted#:#Enviado
+upload_error#:#Error al enviar el archivo
+users#:#Usuarios

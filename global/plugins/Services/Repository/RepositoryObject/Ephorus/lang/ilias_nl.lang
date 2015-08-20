@@ -1,0 +1,251 @@
+// 
+// Dutch Language File for EphorusObject Plugin
+//
+
+<!-- language file start -->
+obj_xeph#:#Ephorus Oefening
+objs_xeph#:#Ephorus Oefeningen
+obj_xeph_duplicate#:#Kopiëer Oefening
+objs_xeph_duplicate#:#Kopiëer Oefeningen
+obj_xeph_select#:#-- Selecteer alstublieft een Oefening --
+
+<!-- Creation of Oefening -->
+xeph_add#:#Voeg oefening toe
+xeph_added#:#Oefening toegevoegd
+xeph_new#:#Nieuwe oefening
+xeph_copy#:#Kopiëer oefening
+xeph_create#:#Creëer oefening
+xeph_edit#:#Nieuwe Oefening gecreëerd
+
+<!-- Main permissions -->
+crs_create_xeph#:#Creëer Ephorus oefening
+grp_create_xeph#:#Creëer Ephorus oefening
+fold_create_xeph#:#Creëer Ephorus oefening
+root_create_xeph#:#Creëer Ephorus oefening
+cat_create_xeph#:#Creëer Ephorus oefening
+
+<!-- Repository Index -->
+next_deadline#:#Volgende deadline
+
+<!-- Assignment page -->
+assignments#:#Assignments
+assignment#:#Assignment
+
+<!-- view -->
+ended_on#:#Beëindigd op
+starting_on#:#Start op
+time_to_send#:#Resterende werk tijd
+edit_until#:#Wijzigen tot
+schedule#:#Schema
+start_time#:#Start Tijd
+download#:#Download
+your_submission#:#Uw voorlegging
+message_no_delivered_files#:#U hebt geen bestand afgeleverd
+hand_in#:#Inleveren
+edit_submission#:#Bewerk voorlegging
+files_returned#:#Teruggestuurde bestanden
+last_submission#:#Laatste oefening
+feedback_from_tutor#:#Feedback van de leerkracht
+comment#:#Commentaar
+mark#:#Punt
+status#:#Status
+time_over_short#:#Tijd is verstreken.
+submitted_files_deleted#:#De geselecteerde bestanden zijn verwijderd.
+already_delivered_files#:#Reeds bezorgde bestanden
+public_submission#:#Publieke voorleggingen
+list_submission#:#Geef alle voorleggingen
+msg_public_submission#:#Alle voorleggingen zullen na de deadline worden gepubliceerd.
+time_up#:#De toegewezen tijd om deze oefening in te sturen is verstreken. Er kunnen geen bestanden meer worden ingestuurd!
+
+<!-- Edit -->
+add_assignment#:#Nieuwe inschrijving
+new_assignment#:#Nieuwe toewijzing
+edit_assignment#:#Bewerk toewijzing
+order_by_deadline#:#Sorteer op Deadline
+save_order#:#Sla volgorde op
+presentation_order#:#Presentatie volgorde
+start_time#:#Start Tijd
+deadline#:#Deadline
+mandatory#:#Verplicht
+mandatory_info#:#Alle verplichte opdrachten moeten goed zijn afgerond om de oefening met succes af te ronden.
+instruction#:#Werk instructies
+files#:#Bestanden
+conf_del_assignments#:#Wilt u de volgende assignments echt verwijderen?
+assignments_deleted#:#De assignments zijn verwijderd.
+saved_order#:#Sla de presentatie volgorden op.
+start_date_should_be_before_end_date#:#Starttijd moet voor de deadline zijn.
+
+<!-- Info page -->
+info_short#:#Info
+overview#:#Overzicht
+msg_all_mandatory_ass#:#Je moet alle verplichte opdrachten afgemaakt hebben om voor de oefening te slagen.
+msg_failed_mandatory#:#Je hebt in tenminste een verplichte oefening gefaald.
+
+<!-- Settings page -->
+settings#:#Instellingen
+edit_ephorus_exercise#:#Bewerk  Ephorus Oefening
+title#:#Titel
+description#:#Beschrijving
+show_submissions#:#Publiceer opdrachten na Deadline
+show_submissions_info#:#Publiceer alle opdrachten aan alle studenten na de deadline.
+pass_mode#:#Slaag modules
+pass_all#:#Alle verplichte opdrachten
+pass_all_info#:#Alle verplichte opdrachten moeten goed zijn afgerond om de oefening met succes af te ronden.
+pass_minimum_nr#:#Minimum aantal opdrachten
+pass_minimum_nr_info#:#Een minimaal aantal opdrachten moeten met succes zijn afgerond om ook de oefening met succes af te ronden. Dit aantal moet gelijk of hoger zijn dan het aantal verplichte opdrachten.
+min_nr#:#Aantal opdrachten
+submission_notification#:#Email Notificatie bij oefenopdrachten
+submission_notification_info#:#U wordt bericht wanneer oefenopdrachten worden geupload.
+completion_by_submission#:#Voltooid door inlevering
+completion_by_submission_info#:#Als dit aanstaat, veroorzaakt tenminste 1 bestand het voltooien van een opdracht. De score kan later handmatig worden gewijzigd. Het aan of uitzetten van deze switch beïnvloed de reeds ingeleverde opdrachten niet.
+processtype#:#Processtype
+processtype_description#:#Er zijn 3 opties voor het uploaden van documenten naar Ephorus:<ul><li>Default: De documenten die worden opgestuurd zullen worden gecheckt op plagiaat en kunnen in de toekomst als referentie materiaal worden gebruikt.</li><li>Reference: Het document zal niet worden gecheckt op plagiaat maar zal als referentie materiaal worden gebruikt.</li><li>Private: Uw document zal worden gecheckt op plagiaat maar zal niet als referentie materiaal worden gebruikt.</li></ul>
+save#:#Opslaan
+cancel#:#Annuleer
+edit#:#Wijzig
+<!-- Connection check -->
+check_connection#:#Check Connectiie
+handin_index_okay#:#De Inlever en Index Adressen hebben Connectie
+handin_index_not_okay#:#De Inlever en Index Adressen hebben geen Connectie
+handin_okay#:#Het Inlever Adres heeft geen Connectie
+handin_not_okay#:#Het Inlever Adres heeft geen Connectie
+index_okay#:#Het Index Adres heeft geen Connectie
+index_not_okay#:#Het Index Adres heeft geen Connectie
+
+<!-- Submission page -->
+submissions_and_grades#:#Opdrachten en cijfers
+submission_view#:#Opdrachten
+participant_view#:#Deelnemer
+grades_view#:#Cijfers
+grades_overview#:#Cijfer Overview
+select_ass#:#Selecteer opdracht
+search_users#:#Zoek gebruikers
+save_changes#:#Opslaan
+send_mail#:#Stuur e-mail
+send_assignment#:#Stuur opdracht per e-mail
+deassign_members#:#Verwijderen deelnemer(s)
+download_files#:#Download Bestanden
+download_all#:#Download Alles
+download_new#:#Download Nieuw
+comment_for_learner#:#Informatie voor de leerling
+notgraded#:#Geen graad
+passed#:#Geslaagd
+failed#:#Niet geslaagd
+add_feedback_file#:#Voeg feedback bestand toe
+fb_files#:#Feedback Bestanden
+status_saved#:#Oefening bijgewerkt
+submission#:#Oefening
+report#:#Rapportage
+grading#:#Cijfers
+participant#:#Deelnemer
+add_participant#:#Voeg deelnemer toe
+crs_add_members#:#Voeg studenten toe aan deze cursus
+select_part#:#Selecteer deelnemer
+no_participants#:#Er zijn geen deelnemers
+no_assignments_available#:#Er zijn geen opdrachten beschikbaar
+msg_saved_grades#:#Cijfers zijn opgeslagen
+total_exc#:#Totale oefening
+export_excel#:#Export (Excel)
+
+exercise_sent#:#Oefening verstuurd
+feedback_sent#:#Feedback verstuurd
+sent_at#:#Verstuurd op <br />%s
+
+members_assigned#:#Deelnemers toegewezen
+members_already_assigned#:#Deze gebruikers zijn al aan deze oefening toegewezen
+msg_sure_to_deassign_participant#:#Weet je zeker dat je de deelnemers wilt loskoppelen van alle opdrachten van de oefening? Dit zal ook reeds ingeleverde opdrachten verwijderen!
+msg_participants_removed#:#De gebruikers zijn verwijderd van deze oefening.
+
+reports#:#Ephorus Rapportages
+
+<!-- Permissions Page -->
+xeph_visible#:#Oefening is zichtbaar
+xeph_read#:#Lees oefening
+xeph_write#:#Wijzig oefening
+xeph_delete#:#Verwijder oefening
+xeph_edit_permission#:#Wijzig permissie instellingen
+
+<!-- Configuration Page -->
+ephorus_plugin_configuration#:#Ephorus Oefening Plugin Configuratie
+ephorus_logging#:#Zet Ephorus Logging aan
+ephorus_logging_description#:#Ephorus geeft extra logging.
+handin_code#:#Hand-in Code
+handin_address#:#Hand-in Adress
+index_address#:#Index Address
+default_processtype#:#Standaard Processtype
+default_processtype_description#:#Er zijn 2 standaard upload opties voor het versturen van documenten naar Ephorus:<ul><li>Default: De documenten die worden opgestuurd zullen worden gecheckt op plagiaat en kunnen in de toekomst als referentie materiaal worden gebruikt.</li><li>Private: Uw document zal worden gecheckt op plagiaat maar zal niet als referentie materiaal worden gebruikt.</li></ul>
+default#:#Default
+reference#:#Reference
+private#:#Private
+disclosure#:#Disclosure
+saving_invoked#:#Ephorus instellingen zijn opgeslagen.
+
+<!-- Ephorus Language strings -->
+wait_for_sending#:#Wachten op versturen
+wait_for_sending_msg#:#Wachten op versturen van het document naar Ephorus.
+processing#:#Verwerken
+processing_msg#:#Ephorus scant het document naar mogelijke plagiaat en de rapportage zal spoedig komen.
+duplicate_document#:#Duplicate Document
+duplicate_document_msg#:#Dit document is reeds eerder ingeleverd.
+document_protected#:#Document beschermd.
+document_protected_msg#:#Het document is beschermd door een wachtwoord en kon niet worden gescand.
+not_enough_text#:#Niet genoeg tekst.
+not_enough_text_msg#:#Het document bevat niet genoeg tekst voor een betrouwbare plagiaat scan.
+no_text#:#Geen tekst.
+no_text_msg#:#Het document bevat geen tekst en kon niet worden gecheckt op plagiaat.
+unknown_error#:#Onbekende fout
+unknown_error_msg#:#Er is een onbekende fout opgetreden.
+
+unsupported_file_type#:#Niet ondersteund bestands type
+file_too_big#:#Bestand is te groot
+unknown_file_error#:#Bestand kan niet verstuurd worden
+
+report_for assignment#:#Rapportage voor opdracht: %s
+report_for_document#:#Rapportage voor %s door %s<br />ingeleverd op %s
+
+document_info#:#Document Informatie
+student#:#Student
+document#:#Document
+submission_date#:#Inleverdatum
+total_score#:#Totale Score
+
+original_document_by#:#Het originele document is ingeleverd door %s (%s) op %s
+original_document_by_no_date#:#Het originele documetn is ingeleverd door %s (%s)
+duplicate_document_download#:#Download het Document
+original_report#:#Originele rapportage
+link_original_report#:#Bekijk originele rapportage
+
+document_written_by#:#Document geschreven door %s (%s)
+update_selection#:#Update selectie
+view_difference#:#Bekijk verschillen
+
+original_text#:#Origineel
+found_by_ephorus#:#Gevongen
+
+msg_change_index#:#De visibility index van het document is gewijzigd.
+msg_no_change_index#:#De visibility index is niet gewijzigd.
+
+<!-- No page defined yet -->
+ask_delete#:#Bestand verwijderen?
+assign_usr#:#Toewijzen gebruiker
+date_not_valid#:#De datum is niet geldig
+details#:#Oefening details
+edit_learning_progress#:#Voortgang aanpassen
+groups#:#Uitgenodigde groepen
+header_members#:#Oefening (deelnemers)
+mail_users#:#Stuur email naar gebruiker(s)
+members_comments_saved#:#Het commentaar van de geselecteerde gebruiker over de oefening is bewaard
+no_members_assigned#:#Geen deelnemers toegewezen
+notices#:#Notities
+resubmitted_advice#:#Dit symbool zal getoond worden in geval dat een nieuw bestand worden geladen nadat het "solved" aangeduid werd
+roles#:#Rolllen
+search_for#:#Zoeken naar
+select_one_file#:#Selecteer precies één bestand
+send_exercise#:#Verzend oefening
+sent#:#De oefening is naar de geselecteerde gebruikers verzonden
+status_resubmitted#:#Opnieuw verzonden
+status_sent#:#Afgeleverd
+status_solved#:#Solved
+status_submitted#:#Verzonden
+upload_error#:#Fout bij het uploaden van het bestand
+users#:#Gebruikers
