@@ -1380,7 +1380,7 @@ class ilObjEphorusGUI extends ilObjectPluginGUI
         if (count($ass) > 0)
         {
             include_once("./Customizing/global/plugins/Services/Repository/RepositoryObject/Ephorus/classes/class.ilEphorusMemberTableGUI.php");
-            $eph_tab = new ilEphorusMemberTableGUI($this, "members", $this->object, $_GET["ass_id"]);
+            $eph_tab = new ilEphorusMemberTableGUI($this, "showSubmissions", $this->object, $_GET["ass_id"]);
             $tpl->setContent($eph_tab->getHTML());
         }
         else
