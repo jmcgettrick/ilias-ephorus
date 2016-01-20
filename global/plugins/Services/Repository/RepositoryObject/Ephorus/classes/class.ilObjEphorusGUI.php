@@ -141,6 +141,7 @@ class ilObjEphorusGUI extends ilObjectPluginGUI
             case "deleteDelivered":            // Delete document(s) for real
             case "listPublicSubmissions":      // Show all Submissions
             case "downloadReturned":           // Download all Submissions
+            case "downloadAllDeliveredFiles":
                 $this->checkPermission("read");
                 $this->$cmd();
                 break;
@@ -1577,9 +1578,6 @@ class ilObjEphorusGUI extends ilObjectPluginGUI
         }
     }
 
-
-
-
     function addUserFromAutoComplete()
     {
         if(!strlen(trim($_POST['user_login'])))
@@ -1733,6 +1731,22 @@ class ilObjEphorusGUI extends ilObjectPluginGUI
     {
         ilEphAssignment::downloadSingleFile($this->object->getId(), $this->ass->getId(), $_GET["part_id"], $_GET['filename'], $_GET['filetitle']);
         exit;
+    }
+
+    /**
+     * Download all delivered files
+     */
+    function downloadAllDeliveredFiles()
+    {
+        global $ilCtrl;
+
+        include_once("./Customizing/global/plugins/Services/Repository/RepositoryObject/Ephorus/classes/class.ilEphAssignment.php");
+        $mem_obj = new ilEphorusMembers($this->object);
+        $members = array_flip($mem_obj->getMembers());
+
+        $ilEphAssignment = new ilEphAssignment();
+        $ilEphAssignment->downloadAllDeliveredFiles($this->object->getId(), $this->ass->getId(), $members);
+        exit();
     }
 
     /**
