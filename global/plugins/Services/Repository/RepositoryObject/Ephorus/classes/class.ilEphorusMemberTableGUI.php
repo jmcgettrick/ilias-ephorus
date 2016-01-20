@@ -72,7 +72,7 @@ class ilEphorusMemberTableGUI extends ilTable2GUI
         //if(count($this->eph->members_obj->getAllDeliveredFiles()))
         if (count(ilEphAssignment::getAllDeliveredFiles($this->eph_id, $this->ass_id)))
         {
-            $this->addCommandButton("downloadAll", $lng->txt("download_all_returned_files"));
+            $this->addCommandButton("downloadAllDeliveredFiles", $lng->txt("download_all_returned_files"));
         }
     }
 
