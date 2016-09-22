@@ -67,8 +67,7 @@ class ilObjEphorusAccess extends ilObjectPluginAccess
 
         if ($rec["mtime"] > 0)
         {
-            $time_diff = ilUtil::int2array($rec["mtime"] - time(), null);
-            $time_str = ilUtil::timearray2string($time_diff);
+            $time_str = ilObjEphorus::period2String(new ilDateTime($rec["mtime"], IL_CAL_UNIX));
         }
         return $time_str;
     }

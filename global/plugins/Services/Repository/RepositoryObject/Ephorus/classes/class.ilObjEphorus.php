@@ -309,16 +309,61 @@ class ilObjEphorus extends ilObjectPlugin
         return $this->processtype;
     }
 
+    /**
+    * Return a string of time period. This is duplicated from ilUtil as in Ilias 5.1 it replaced 2 functions;
+    * int2array and timearray2string that were used by the
+    *
+    * @param      ilDateTime $a_from
+    * @param      ilDateTime $a_to
+    * @return    string
+    * @static
+    *
+    */
+    public static function period2String(ilDateTime $a_from, $a_to = null)
+    {
+        global $lng;
 
+        if (!$a_to)
+        {
+            $a_to = new ilDateTime(time(), IL_CAL_UNIX);
+        }
 
+        $from = new DateTime($a_from->get(IL_CAL_DATETIME));
+        $to = new DateTime($a_to->get(IL_CAL_DATETIME));
+        $diff = $to->diff($from);
 
+        $periods = array();
+        $periods["years"] = $diff->format("%y");
+        $periods["months"] = $diff->format("%m");
+        $periods["days"] = $diff->format("%d");
+        $periods["hours"] = $diff->format("%h");
+        $periods["minutes"] = $diff->format("%i");
+        $periods["seconds"] = $diff->format("%s");
 
+        if (!array_sum($periods))
+        {
+            return;
+        }
 
+        foreach ($periods as $key => $value)
+        {
+            if($value)
+            {
+                $segment_name = ($value > 1)
+                    ? $key
+                    : substr($key, 0, -1);
+                $array[] = $value . ' ' . $lng->txt($segment_name);
+            }
+        }
 
+        $len = sizeof($array);
+        if ($len > 3)
+        {
+            $array = array_slice($array, 0, (3-$len));
+        }
 
-
-
-
+        return implode(', ', $array);
+    }
 
     /**
      * Upload assigment files
