@@ -69,7 +69,6 @@ class ilEphorusMemberTableGUI extends ilTable2GUI
         $this->addMultiCommand("sendMembers", $lng->txt("rep_robj_xeph_send_assignment"));
         $this->addMultiCommand("confirmDeassignMembers", $lng->txt("rep_robj_xeph_deassign_members"));
 
-        //if(count($this->eph->members_obj->getAllDeliveredFiles()))
         if (count(ilEphAssignment::getAllDeliveredFiles($this->eph_id, $this->ass_id)))
         {
             $this->addCommandButton("downloadAllDeliveredFiles", $lng->txt("download_all_returned_files"));

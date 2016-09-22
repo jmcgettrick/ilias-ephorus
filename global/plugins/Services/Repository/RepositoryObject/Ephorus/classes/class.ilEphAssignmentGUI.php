@@ -66,7 +66,6 @@ class ilEphAssignmentGUI
             $mand = " (".$lng->txt("rep_robj_xeph_mandatory").")";
         }
         $tpl->setVariable("TITLE", $a_data["title"].$mand);
-//		$tpl->setVariable("IMG_ARROW", ilUtil::getImagePath("accordion_arrow.png"));
 
         // status icon
         $stat = ilEphAssignment::lookupStatusOfUser($a_data["id"], $ilUser->getId());
@@ -288,17 +287,7 @@ class ilEphAssignmentGUI
         }
         else
         {
-            $time_diff = ilUtil::int2array($a_deadline - time(),null);
-            unset($time_diff['seconds']);
-            if (isset($time_diff['days']))
-            {
-                unset($time_diff['minutes']);
-            }
-            if (isset($time_diff['months']))
-            {
-                unset($time_diff['hours']);
-            }
-            $time_str = ilUtil::timearray2string($time_diff);
+            $time_str = ilObjEphorus::period2String(new ilDateTime($a_deadline, IL_CAL_UNIX));
         }
 
         return $time_str;

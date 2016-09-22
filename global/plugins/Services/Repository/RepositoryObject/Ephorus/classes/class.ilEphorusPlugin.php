@@ -1,7 +1,7 @@
 <?php
 
 include_once("./Services/Repository/classes/class.ilRepositoryObjectPlugin.php");
- 
+
 /**
 * Example repository object plugin
 *
@@ -15,5 +15,9 @@ class ilEphorusPlugin extends ilRepositoryObjectPlugin
 	{
 		return "Ephorus";
 	}
+
+    function uninstallCustom(){
+        return null;
+    }
 }
 ?>
