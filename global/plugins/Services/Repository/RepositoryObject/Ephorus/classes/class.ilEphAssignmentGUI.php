@@ -1,4 +1,7 @@
 <?php
+
+include_once("./Customizing/global/plugins/Services/Repository/RepositoryObject/Ephorus/classes/class.ilObjEphorus.php");
+
 /**
  * GUI clas for ephorus assignments
  *

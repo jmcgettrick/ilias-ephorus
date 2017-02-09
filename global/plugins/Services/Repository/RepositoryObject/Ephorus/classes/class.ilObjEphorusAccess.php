@@ -22,6 +22,7 @@
 */
 
 include_once("./Services/Repository/classes/class.ilObjectPluginAccess.php");
+include_once("./Customizing/global/plugins/Services/Repository/RepositoryObject/Ephorus/classes/class.ilObjEphorus.php");
 
 /**
 * Access/Condition checking for Example object
