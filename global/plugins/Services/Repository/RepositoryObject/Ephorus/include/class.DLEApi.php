@@ -18,7 +18,7 @@ class DLEApi {
 			chdir(dirname(__FILE__)."/../../../../../../../..");
 
 			include_once "Services/Context/classes/class.ilContext.php";
-			ilContext::init(11); // 11 = const unit_test
+			ilContext::init("ilContextUnitTest");
 
 			require_once "Services/Init/classes/class.ilInitialisation.php";
 			ilInitialisation::initILIAS();
